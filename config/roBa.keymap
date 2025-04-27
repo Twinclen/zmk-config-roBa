@@ -78,7 +78,7 @@
 
         FUNCTION {
             bindings = <
-&none           &none  &none     &kp UP    &none                                      &kp EXCLAMATION  &kp LEFT_BRACKET  &kp LS(MINUS)      &kt KP_SUBTRACT  &kp F5
+&none           &none  &none     &kp UP    &none                                      &kp EXCLAMATION  &kp LEFT_BRACKET  &kp LS(MINUS)      &kt MINUS        &kp F5
 &none           &none  &kp LEFT  &kp DOWN  &kp RIGHT       &none          &kp F13     &kp QUESTION     &kp QUESTION      &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp F10
 &none           &none  &none     &none     &none           &none          &kp LA(F4)  &trans           &kp UNDER         &kp LS(N8)         &kp LS(N9)       &kp F11
 &kp LEFT_SHIFT  &none  &none     &none     &kp LANGUAGE_4  &kp SPACE      &trans      &trans                                                                 &kp F12
