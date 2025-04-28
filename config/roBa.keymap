@@ -111,10 +111,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans    &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &sl 5   &trans      &trans  &kp H     &mkp LCLK  &mkp RCLK  &none   &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp N     &mkp LCLK  &mkp RCLK  &none   &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4                                &trans
+&trans  &trans  &trans  &trans  &trans                                  &trans    &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &lt_to_layer_0 5 G  &trans      &trans  &kp H     &mkp LCLK  &mkp RCLK  &none   &kp ENTER
+&trans  &trans  &trans  &trans  &trans              &trans      &trans  &kp N     &mkp LCLK  &mkp RCLK  &none   &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans              &trans      &trans  &mkp MB4                                &trans
             >;
         };
 
