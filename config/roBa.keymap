@@ -84,10 +84,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                  &trans    &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &lt_to_layer_0 5 G  &trans      &trans  &kp H     &mkp LCLK  &kp K   &mkp RCLK  &kp ENTER
-&trans  &trans  &trans  &trans  &trans              &trans      &trans  &kp N     &kp M      &none   &none      &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans              &trans      &trans  &mkp MB4                                &trans
+&trans  &trans  &trans  &trans  &trans                                  &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &lt_to_layer_0 5 G  &trans      &trans  &kp H   &mkp LCLK  &kp K   &mkp RCLK  &kp ENTER
+&trans  &trans  &trans  &trans  &trans              &trans      &trans  &kp N   &kp M      &none   &none      &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans              &trans      &trans  &none                                 &mkp MB4
             >;
         };
 
