@@ -51,10 +51,10 @@
 
         FUNCTION {
             bindings = <
-&none           &none  &none     &kp UP    &none                                      &kp AT           &kp EXCLAMATION  &kp EQUAL             &kp MINUS              &kp SINGLE_QUOTE
-&none           &none  &kp LEFT  &kp DOWN  &kp RIGHT       &none          &kp F13     &kp QUESTION     &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none
-&kp LEFT_SHIFT  &none  &none     &none     &none           &none          &kp LA(F4)  &trans           &kp UNDERSCORE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&kp LEFT_SHIFT  &none  &none     &none     &kp LANGUAGE_4  &kp SPACE      &trans      &kp PRINTSCREEN                                                                &none
+&none           &none  &none     &kp UP    &none                                      &kp AT            &kp EXCLAMATION  &kp EQUAL             &kp MINUS              &kp SINGLE_QUOTE
+&none           &none  &kp LEFT  &kp DOWN  &kp RIGHT       &none          &kp F13     &kp LESS_THAN     &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none
+&kp LEFT_SHIFT  &none  &none     &none     &none           &none          &kp LA(F4)  &kp GREATER_THAN  &kp UNDERSCORE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&kp LEFT_SHIFT  &none  &none     &none     &kp LANGUAGE_4  &kp SPACE      &trans      &kp PRINTSCREEN                                                                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
