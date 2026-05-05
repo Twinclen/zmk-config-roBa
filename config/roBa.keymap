@@ -64,10 +64,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans    &kp UP    &trans                                &kp LS(NUMBER_2)   &kp LS(NUMBER_1)  &kp EQUAL         &kp MINUS                  &kp SQT
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans      &kp COLON      &kp LS(LESS_THAN)  &kp LS(SLASH)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp ENTER
-&trans  &trans  &trans    &trans    &trans     &trans      &kp SEMICOLON  &kp LS(PERIOD)     &kp LS(MINUS)     &kp LS(N9)        &kp LS(RIGHT_PARENTHESIS)  &kp BACKSPACE
-&trans  &trans  &trans    &trans    &trans     &trans      &trans         &trans                                                                            &kp PIPE
+&trans  &trans  &trans    &kp UP    &trans                                &kp LBKT       &kp LS(NUMBER_1)  &kp MINUS   &kp MINUS   &kp SQT
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans      &kp COLON      &kp LS(COMMA)  &kp LS(SLASH)     &kp RBKT    &kp BSLH    &kp ENTER
+&trans  &trans  &trans    &trans    &trans     &trans      &kp SEMICOLON  &kp LS(DOT)    &kp LS(MINUS)     &kp LS(N8)  &kp LS(N9)  &kp BACKSPACE
+&trans  &trans  &trans    &trans    &trans     &trans      &trans         &trans                                                   &kp PIPE
             >;
         };
 
