@@ -54,7 +54,7 @@
         default_layer {
             bindings = <
 &lt 1 Q         &kp W             &kp E         &kp R    &lt 2 T                                         &kp Y          &kp U  &lt 5 I    &kp O    &kp P
-&kp A           &kp S             &kp D         &kp F    &kp G         &kp LS(LG(S))      &kp COLON      &kp H          &kp J  &kp K      &kp L    &kp ENTER
+&kp A           &kp S             &kp D         &kp F    &kp G         &kp LS(LG(S))      &kp SQT        &kp H          &kp J  &kp K      &kp L    &kp ENTER
 &kp Z           &kp X             &kp C         &kp V    &kp B         &lt 5 F7           &kp SEMICOLON  &kp N          &kp M  &kp COMMA  &kp DOT  &kp BACKSPACE
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp TAB  &kp CAPSLOCK  &kp SPACE          &to 2          &kp RIGHT_ALT                             &lt 6 F8
             >;
@@ -76,7 +76,7 @@
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                               &kp N7        &kp N8        &kp NUMBER_9  &kp LS(SINGLE_QUOTE)  &kp SLASH
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp COMMA   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS             &kp ENTER
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp PERCENT                  &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON             &kp BACKSPACE
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans      &kp NUMBER_0                                                    &none
+&trans                      &trans           &trans           &trans           &trans        &trans                       &to 0       &kp NUMBER_0                                                    &none
             >;
         };
 
